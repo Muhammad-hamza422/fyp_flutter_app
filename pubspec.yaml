@@ -1,0 +1,54 @@
+name: fyp_flutter_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"  # Ensure compatibility with Flutter
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Commonly used dependencies
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.3.1
+
+  # Firebase dependencies (Use latest compatible versions)
+  firebase_core: ^3.12.1  # Updated from 3.12.1 (old version)
+  firebase_auth: ^5.5.1
+  cloud_firestore: ^5.6.5
+  permission_handler: ^11.4.0
+  google_sign_in: ^6.3.0
+  firebase_database: ^11.3.4
+  flutter_launcher_icons: ^0.14.3
+  web_socket_channel: ^3.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/calendar.jpg
+    - assets/images/dialer.png
+    - assets/images/appfeatures.png
+    - assets/images/eegheadset.png
+    - assets/images/signin.png
+    - assets/images/splash.png
+    - assets/images/register.png
+    - assets/images/forgot.png
+    - assets/images/splash1.png
+    - assets/images/splash2.png
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/splash1.png"  # Path to your new icon
+  adaptive_icon_background: "#ffffff"  # Background color for adaptive icon
+  #  adaptive_icon_foreground: "assets/app_icon_foreground.png"  # Optional for Android adaptive icons
